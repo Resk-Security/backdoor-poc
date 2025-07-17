@@ -1,0 +1,2 @@
+2025-07-17 14:29:12,479 - Erreur de connexion : name 'config_manager' is not defined
+2025-07-17 14:29:23,278 - Erreur de connexion : [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée

@@ -1,0 +1,8 @@
+{
+    "server_address": "MTI3LjAuMC4x",
+    "server_port": "OTk5OQ==",
+    "buffer_size": 1024,
+    "separator": "<sep>",
+    "exit_command": "exit",
+    "info_command": "collect_info"
+}
