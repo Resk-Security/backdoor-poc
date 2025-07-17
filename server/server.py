@@ -4,7 +4,7 @@ import logging
 HOST = "127.0.0.1"
 PORT = 9999
 BUFFER = 1024
-SEP = "<sep>"
+SEP = "<sep>"  
 
 logging.basicConfig(filename="server_log.txt", level=logging.INFO, format="%(asctime)s - %(message)s")
 

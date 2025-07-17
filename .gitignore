@@ -4,6 +4,5 @@ server_log.txt
 *.log
 venv/
 .env
-server/
 dist/
 network_log.txt
