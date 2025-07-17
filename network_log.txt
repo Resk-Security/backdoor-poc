@@ -1,2 +1,27 @@
 2025-07-17 14:29:12,479 - Erreur de connexion : name 'config_manager' is not defined
 2025-07-17 14:29:23,278 - Erreur de connexion : [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée
+2025-07-17 15:02:34,828 - Connexion au serveur établie
+2025-07-17 15:02:34,829 - Analyse du projet : C:\Users\jerem\Documents\poc\cursor\backdoor-poc
+2025-07-17 15:12:11,688 - Erreur de connexion : [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée
+2025-07-17 15:12:19,441 - Connexion au serveur établie
+2025-07-17 15:12:19,442 - Analyse du projet : C:\Users\jerem\Documents\poc\cursor\backdoor-poc
+2025-07-17 15:12:19,443 - Données envoyées au serveur
+2025-07-17 15:12:34,092 - Données reçues : dir...
+2025-07-17 15:12:34,114 - Données envoyées au serveur
+2025-07-17 15:12:34,114 - Tâche exécutée : dir
+2025-07-17 15:12:46,526 - Données reçues : cat...
+2025-07-17 15:12:46,546 - Données envoyées au serveur
+2025-07-17 15:12:46,546 - Tâche exécutée : cat
+2025-07-17 15:12:49,033 - Données reçues : cmd...
+2025-07-17 20:27:12,588 - Connexion au serveur établie
+2025-07-17 20:27:12,589 - Analyse du projet : C:\Users\jerem\Documents\poc\cursor\backdoor-poc
+2025-07-17 20:27:12,589 - Données envoyées au serveur
+2025-07-17 20:35:49,720 - Données reçues : dir...
+2025-07-17 20:35:49,754 - Données envoyées au serveur
+2025-07-17 20:35:49,754 - Tâche exécutée : dir
+2025-07-17 20:36:03,901 - Données reçues : dir...
+2025-07-17 20:36:03,927 - Données envoyées au serveur
+2025-07-17 20:36:03,927 - Tâche exécutée : dir
+2025-07-17 20:36:03,927 - Erreur de réception : [WinError 10053] Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte
+2025-07-17 20:36:03,928 - Erreur dans l'application principale : list index out of range
+2025-07-17 20:36:03,928 - Connexion fermée

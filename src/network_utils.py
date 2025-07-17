@@ -46,3 +46,8 @@ def close_connection():
     if _client_socket:
         _client_socket.close()
         logging.info("Connexion fermée")
+
+def main():
+    """Main entry point for the command line interface."""
+    from . import main as main_module
+    main_module.main()
